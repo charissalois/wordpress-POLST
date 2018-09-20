@@ -1,0 +1,91 @@
+.icon {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(sprite.svg);
+}
+.icon-location {
+    width: 32px;
+    height: 32px;
+    background-position: 0 0;
+}
+.icon-user {
+    width: 24px;
+    height: 32px;
+    background-position: -48px 0;
+}
+.icon-file-pdf-o {
+    width: 27px;
+    height: 32px;
+    background-position: -96px 0;
+}
+.icon-angle-right {
+    width: 11px;
+    height: 32px;
+    background-position: -144px 0;
+}
+.icon-angle-double-right {
+    width: 18px;
+    height: 32px;
+    background-position: -192px 0;
+}
+.icon-angle-left {
+    width: 12px;
+    height: 32px;
+    background-position: -240px 0;
+}
+.icon-angle-double-left {
+    width: 19px;
+    height: 32px;
+    background-position: -288px 0;
+}
+.icon-chevron-right {
+    width: 22px;
+    height: 32px;
+    background-position: -336px 0;
+}
+.icon-chevron-left {
+    width: 24px;
+    height: 32px;
+    background-position: -384px 0;
+}
+.icon-print {
+    width: 30px;
+    height: 32px;
+    background-position: -432px 0;
+}
+.icon-commenting {
+    width: 32px;
+    height: 32px;
+    background-position: -480px 0;
+}
+.icon-pencil {
+    width: 27px;
+    height: 32px;
+    background-position: -528px 0;
+}
+.icon-envelope {
+    width: 32px;
+    height: 32px;
+    background-position: -576px 0;
+}
+.icon-search {
+    width: 30px;
+    height: 32px;
+    background-position: -624px 0;
+}
+.icon-youtube {
+    width: 27px;
+    height: 32px;
+    background-position: -672px 0;
+}
+.icon-facebook {
+    width: 19px;
+    height: 32px;
+    background-position: -720px 0;
+}
+.icon-twitter {
+    width: 30px;
+    height: 32px;
+    background-position: 0 -48px;
+}
+

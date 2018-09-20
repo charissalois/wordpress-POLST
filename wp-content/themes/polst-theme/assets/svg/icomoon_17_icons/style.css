@@ -1,0 +1,70 @@
+.icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+}
+
+/* =======================================================================================
+Example showing how to change the color/size of the icons:
+.icon-name {
+	font-size: 32px; // works because "width" & "height" were set using em units
+	color: red; // works for single-colored icons, because "fill" was set to "currentColor"
+}
+======================================================================================== */
+
+.icon-user {
+	width: 0.75em;
+}
+
+.icon-file-pdf-o {
+	width: 0.857421875em;
+}
+
+.icon-angle-right {
+	width: 0.3388671875em;
+}
+
+.icon-angle-double-right {
+	width: 0.5537109375em;
+}
+
+.icon-angle-left {
+	width: 0.375em;
+}
+
+.icon-angle-double-left {
+	width: 0.5888671875em;
+}
+
+.icon-chevron-right {
+	width: 0.6787109375em;
+}
+
+.icon-chevron-left {
+	width: 0.75em;
+}
+
+.icon-print {
+	width: 0.9287109375em;
+}
+
+.icon-pencil {
+	width: 0.845703125em;
+}
+
+.icon-search {
+	width: 0.9287109375em;
+}
+
+.icon-youtube {
+	width: 0.857421875em;
+}
+
+.icon-facebook {
+	width: 0.587890625em;
+}
+
+.icon-twitter {
+	width: 0.9287109375em;
+}

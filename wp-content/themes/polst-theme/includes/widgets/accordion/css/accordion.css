@@ -1,0 +1,52 @@
+.polst-accordion .button {
+  margin-bottom: 28px;
+}
+.accordion-item {
+  border-bottom: 1px solid #e5e5e5;
+  position: relative;
+}
+.accordion-item:first-child {
+  border-top: 1px solid #e5e5e5;
+}
+.accordion-item:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: 10px;
+  top: 1.75em;
+  margin-top: -7px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  z-index: 10;
+  border-top: 6px solid #353439;
+  transition: .2s all ease;
+}
+.accordion-item h3 {
+  margin: 0;
+}
+.accordion-item h3 a {
+  font-size: 2rem;
+  position: relative;
+  display: block;
+  padding: 20px 30px 20px 10px;
+  color: inherit;
+}
+.accordion-item h3 a:hover {
+  background: #f1f1f1;
+}
+.accordion-item.is-open:before {
+  transform: rotate(180deg);
+}
+.accordion-item.is-open a {
+  background: #f1f1f1;
+}
+.accordion-content {
+  display: none;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+.accordion-content.is-visible {
+  display: block;
+}

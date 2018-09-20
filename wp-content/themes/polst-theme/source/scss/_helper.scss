@@ -1,0 +1,39 @@
+.text-left{
+	text-align: left;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.pull-left{
+	float: left;
+}
+
+.pull-right{
+	float: right;
+}
+
+.text-xs{
+	font-size: $body-size-xs;
+}
+
+.text-sm{
+	font-size: $body-size-small;
+}
+
+.text-muted{
+	color: $muted;
+}
+
+.text-gray-light{
+	color: $gray-light;
+}
+
+.hidden{
+	display: none !important;
+}
