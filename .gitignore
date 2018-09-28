@@ -6,6 +6,8 @@
 *.swp
 Thumbs.db
 
+.htaccess
+
 # wordpress specific
 wp-config.php
 wp-content/uploads/
@@ -67,9 +69,14 @@ wp-content/mysql.sql
 /wp-content/themes/twentyfifteen
 /wp-content/themes/twentysixteen
 /wp-content/themes/twentyseventeen
+/wp-content/themes/genesis
 /wp-content/themes/index.php
 /wp-content/plugins/index.php
 /wp-content/plugins/akismet*
+/wp-content/plugins/
+/wp-content/wf-logs/
+/wp-content/wflogs/
+/wp-content/updraft/
 
 # large/disallowed file types
 # a CDN should be used for these
