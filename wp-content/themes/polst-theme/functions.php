@@ -8,6 +8,8 @@ define( 'CHILD_THEME_NAME', 'Polst Theme' );
 define( 'CHILD_THEME_URL', 'http://www.polst.org/' );
 define( 'CHILD_THEME_VERSION', '1.0' );
 
+define( 'DISALLOW_FILE_EDIT', true );
+
 //* Enqueue scripts and styles
 add_action( 'wp_enqueue_scripts', 'polst_scripts_and_styles' );
 
